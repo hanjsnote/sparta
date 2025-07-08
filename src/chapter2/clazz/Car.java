@@ -8,7 +8,7 @@ package chapter2.clazz;
 //        생성자 - 조립할 속성을 골라 객체화 시킨다.
 //        기능 - 다양한 기능을 만들어보고 활용해본다.
 //    ->drive() 주행기능
-//    ->accelerate() 가속 기능
+//    ->accelerate() 가속 기능 ~
 public class Car{
     private int speed;
 
