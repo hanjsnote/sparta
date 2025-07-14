@@ -24,10 +24,12 @@ public class Main {
 //        }
 
         //4. 체크 예외 호출
+        try {
+            exceptionPractice.callCheckedException();
+        }catch (Exception e){
+            System.out.println("체크 예외 처리");
+        }
 
-        exceptionPractice.callCheckedException();
-
-        System.out.println("프로그램 종료");
 
     }
 }
